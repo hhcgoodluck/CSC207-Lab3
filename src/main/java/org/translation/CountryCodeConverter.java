@@ -18,7 +18,7 @@ public class CountryCodeConverter {
     private Map<String, String> countryCodeMap;
 
     /**
-     * Default constructor which will load the country codes from "country-codes.txt"
+     * Default constructor which will load the country codes from "country-codes.txt".
      * in the resources folder.
      */
     public CountryCodeConverter() {

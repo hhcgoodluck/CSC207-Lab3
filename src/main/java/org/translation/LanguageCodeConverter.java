@@ -69,7 +69,7 @@ public class LanguageCodeConverter {
 
     /**
      * Returns the code of the language for the given language name.
-     * @param language the name of the language                       输入语言名称 返回2位code
+     * @param language the name of the language                    输入语言名称 返回2位code
      * @return the 2-letter code of the language
      */
     public String fromLanguage(String language) {

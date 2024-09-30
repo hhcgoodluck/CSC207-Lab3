@@ -34,7 +34,7 @@ public class Main {
      * This is the method which we will use to test your overall program, since
      * it allows us to pass in whatever translator object that we want!
      * See the class Javadoc for a summary of what the program will do.
-     * @param translator the Translator implementation to use in the program
+     * @param translator the Translator implementation to use in the program.
      */
     public static void runProgram(Translator translator) {
         // 将字符串 "quit" 定义为常量，遵守 CheckStyle 规则

@@ -33,8 +33,9 @@ public class JSONDemo {
      * @return value of key "key1" from the second object in the given jsonArray
      */
     public static String getKeyOneOfSecond(JSONArray jsonArray) {
-        // TODO: Complete this method.
-        return "";
+        // 从 JSONArray 中获取第二个 JSONObject
+        JSONObject secondObject = jsonArray.getJSONObject(1);
+        // 返回与 "key1" 关联的值
+        return secondObject.getString("key1");
     }
-
 }
